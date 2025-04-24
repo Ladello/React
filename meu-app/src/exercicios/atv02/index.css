@@ -1,0 +1,17 @@
+
+
+  .contador-buttons button {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    font-size: 18px;
+  }
+  
+  .contador-input {
+    width: 50px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+  }
+  
