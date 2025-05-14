@@ -1,0 +1,9 @@
+.Order{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
