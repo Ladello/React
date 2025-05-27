@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Espaço entre as caixas */
+  padding: 20px;
+}
+
+.component-box {
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.component-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-container input {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.form-container p {
+  margin-top: 10px;
+  text-align: center;
+}
