@@ -5,6 +5,7 @@ import Atv01 from "./exercicios/atv01";
 import Atv02 from "./exercicios/atv02"; 
 import Atv03 from "./exercicios/atv03"; 
 import Atv04 from "./exercicios/atv04"; 
+import Atv05 from "./exercicios/atv05"; 
 
 export default function MinhasRotas(){
     return (
@@ -14,6 +15,7 @@ export default function MinhasRotas(){
             <Route path="/atv02" element={<Atv02 />} />
             <Route path="/atv03" element={<Atv03 />} />
             <Route path="/atv04" element={<Atv04 />} />
+            <Route path="/atv05" element={<Atv05 />} />
         </Routes>
     );
 }
